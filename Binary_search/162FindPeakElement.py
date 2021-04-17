@@ -8,11 +8,7 @@ class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         
         def binarySearch(nums):
-            """
-            :type nums: List[int]
-            :type target: int
-            :rtype: int
-            """
+            
             if len(nums) == 0:
                 return -1
 
@@ -28,4 +24,3 @@ class Solution:
             return left
         
         return binarySearch(nums)
-
