@@ -5,9 +5,6 @@
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
 
-        import collections
-        from collections import Counter
-
         alphabet = "abcdefghijklmnopqrstuvwxyz"
         l_alphabet = [ord(alphabet[i]) - ord('a') + 1 for i in range(26)]
 
